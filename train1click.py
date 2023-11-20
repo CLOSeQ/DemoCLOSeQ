@@ -130,10 +130,12 @@ for name in os.listdir(weight_uvr5_root):
 #per      = 3.7
 
 #extract_f0_feature(gpus, n_p, f0method, if_f0, exp_dir, version19, gpus_rmvpe)
-# gpus = 
+# gpus = gpus
 # n_p = processors 3
 # f0method = rmvpe
 # if_f0   = True
 # exp_dir = cyan
 # version19 = v2
-# gpus_rmvpe = 
+# gpus_rmvpe = gpus?
+
+
