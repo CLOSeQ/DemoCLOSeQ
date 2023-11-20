@@ -122,3 +122,18 @@ for name in os.listdir(weight_uvr5_root):
     if name.endswith(".pth") or "onnx" in name:
         uvr5_names.append(name.replace(".pth", ""))
 
+#preprocess 
+#inp_root = "C:\Users\azureML\Downloads\cyan"
+#sr       = 40
+#n_p      = processors 3
+#exp_dir  = "C:\Users\azureML\Downloads\RVC1006AMD_Intel/logs/cyan"
+#per      = 3.7
+
+#extract_f0_feature(gpus, n_p, f0method, if_f0, exp_dir, version19, gpus_rmvpe)
+# gpus = 
+# n_p = processors 3
+# f0method = rmvpe
+# if_f0   = True
+# exp_dir = cyan
+# version19 = v2
+# gpus_rmvpe = 
